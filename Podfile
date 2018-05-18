@@ -13,6 +13,7 @@ target 'Native_RN' do
   'RCTNetwork',
   'RCTWebSocket',
   'BatchedBridge',
+  'RCTAnimation'
   ]
   pod 'yoga', :path => './react/node_modules/react-native/ReactCommon/yoga'
 
