@@ -6,16 +6,18 @@ target 'Native_RN' do
   # use_frameworks!
 
   # Pods for Native_RN
-  pod 'React', :path => './react/node_modules/react-native', :subspecs => [
+  pod 'React', :path => './node_modules/react-native', :subspecs => [
   'Core',
   'DevSupport',
   'RCTText',
   'RCTNetwork',
   'RCTWebSocket',
   'BatchedBridge',
-  'RCTAnimation'
+  'RCTAnimation',
+  'RCTImage',
   ]
-  pod 'yoga', :path => './react/node_modules/react-native/ReactCommon/yoga'
+  pod 'yoga', :path => './node_modules/react-native/ReactCommon/yoga'
+
 
 end
 

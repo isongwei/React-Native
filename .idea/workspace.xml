@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96016f9a-7db3-4003-a989-ba410a419cef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Mine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/counterReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/reducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/app/Root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/index.ios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Native_RN.xcworkspace/xcuserdata/song.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Native_RN.xcworkspace/xcuserdata/song.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Native_RN.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Native_RN.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Native_RN/RNView.m" afterPath="$PROJECT_DIR$/Native_RN/RNView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/InspectorInterfaces.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/InspectorInterfaces.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/JSBundleType.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/JSBundleType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/JSCWrapper.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/JSCWrapper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/JavaScriptCore.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/JavaScriptCore.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAdditionAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAdditionAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimationDriver.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimationDriver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimationUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTAnimationUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDecayAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDecayAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDiffClampAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDiffClampAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDivisionAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTDivisionAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTEventAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTEventAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTFrameAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTFrameAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTInterpolationAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTInterpolationAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTModuloAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTModuloAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTPropsAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTPropsAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTSpringAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTSpringAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTStyleAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTStyleAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTTransformAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTTransformAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTValueAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTAnimation/RCTValueAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputDelegateAdapter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputDelegateAdapter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputViewProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBackedTextInputViewProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBlobManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTBlobManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTConvert+Text.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTConvert+Text.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDataRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDataRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDevLoadingView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDevLoadingView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDevMenu.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTDevMenu.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFileRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFileRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFontAttributes.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFontAttributes.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFontAttributesDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTFontAttributesDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTHTTPRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTHTTPRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspector.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspector.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspectorDevServerHelper.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspectorDevServerHelper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspectorPackagerConnection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTInspectorPackagerConnection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTJSCExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTJSCExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetworkTask.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetworkTask.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetworking.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTNetworking.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerClient.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerClient.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnectionBridgeConfig.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnectionBridgeConfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnectionConfig.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTPackagerConnectionConfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTRawTextManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTRawTextManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTReconnectingWebSocket.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTReconnectingWebSocket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTReloadPackagerMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTReloadPackagerMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTSRWebSocket.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTSRWebSocket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTSamplingProfilerPackagerMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTSamplingProfilerPackagerMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowRawText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowRawText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowTextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowTextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowTextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTShadowTextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextFieldManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextFieldManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextInput.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextInput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextSelection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextSelection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTTextViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTUITextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTUITextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTUITextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTUITextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTWebSocketExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTWebSocketExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTWebSocketModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/RCTWebSocketModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAccessibilityManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAccessibilityManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTActivityIndicatorView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTActivityIndicatorView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTActivityIndicatorViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTActivityIndicatorViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAlertManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAlertManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAnimationType.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAnimationType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAppState.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAppState.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAssert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAssert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAsyncLocalStorage.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAsyncLocalStorage.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAutoInsetsProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTAutoInsetsProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBorderDrawing.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBorderDrawing.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBorderStyle.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBorderStyle.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridge+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridge+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridge.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBridgeModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBundleURLProvider.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTBundleURLProvider.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTClipboard.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTClipboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTComponent.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTComponent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTComponentData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTComponentData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert+CoreLocation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert+CoreLocation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert+Transform.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert+Transform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTConvert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTCxxConvert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTCxxConvert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDatePicker.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDatePicker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDatePickerManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDatePickerManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDefines.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDefines.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDevSettings.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDevSettings.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDeviceInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDeviceInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDisplayLink.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTDisplayLink.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTErrorCustomizer.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTErrorCustomizer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTErrorInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTErrorInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTEventDispatcher.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTEventDispatcher.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTEventEmitter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTEventEmitter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTExceptionsManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTExceptionsManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFPSGraph.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFPSGraph.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFont.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFont.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFrameUpdate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTFrameUpdate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTI18nManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTI18nManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTI18nUtil.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTI18nUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTImageSource.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTImageSource.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTInvalidating.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTInvalidating.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSCErrorHandling.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSCErrorHandling.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSCSamplingProfiler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSCSamplingProfiler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSEnvironment.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSEnvironment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSStackFrame.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJSStackFrame.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJavaScriptExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJavaScriptExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJavaScriptLoader.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTJavaScriptLoader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTKeyCommands.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTKeyCommands.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTKeyboardObserver.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTKeyboardObserver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLayoutAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLayoutAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLayoutAnimationGroup.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLayoutAnimationGroup.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLog.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTLog.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMacros.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTManagedPointer.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTManagedPointer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMaskedView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMaskedView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMaskedViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMaskedViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostViewController.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalHostViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModalManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModuleData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModuleData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModuleMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTModuleMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMultipartDataTask.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMultipartDataTask.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMultipartStreamReader.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTMultipartStreamReader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavItem.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavItem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavItemManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavItemManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavigator.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavigator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavigatorManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNavigatorManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNullability.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTNullability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTParserUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTParserUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPerformanceLogger.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPerformanceLogger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPicker.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPicker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPickerManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPickerManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPlatform.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPlatform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPointerEvents.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTPointerEvents.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTProfile.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTProfile.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTProgressViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTProgressViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRedBox.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRedBox.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRefreshControl.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRefreshControl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRefreshControlManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRefreshControlManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTReloadCommand.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTReloadCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootContentView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootContentView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootViewDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootViewInternal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTRootViewInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaViewLocalData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaViewLocalData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSafeAreaViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollContentShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollContentShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollContentViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollContentViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollableProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTScrollableProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSegmentedControl.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSegmentedControl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSegmentedControlManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSegmentedControlManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView+Internal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView+Internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView+Layout.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView+Layout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSlider.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSlider.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSliderManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSliderManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSourceCode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSourceCode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTStatusBarManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTStatusBarManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSwitch.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSwitch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSwitchManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTSwitchManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTVNavigationEventEmitter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTVNavigationEventEmitter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTVRemoteHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTVRemoteHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBar.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarItem.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarItem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarItemManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarItemManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTabBarManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTextDecorationLineType.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTextDecorationLineType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTiming.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTiming.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTouchEvent.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTouchEvent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTouchHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTTouchHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManagerObserverCoordinator.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManagerObserverCoordinator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManagerUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUIManagerUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTURLRequestDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTURLRequestDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTURLRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTURLRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTVersion.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTVersion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTViewControllerProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTViewControllerProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWebView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWebView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWebViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWebViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWrapperViewController.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/RCTWrapperViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/UIView+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/UIView+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/React/UIView+React.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/React/UIView+React.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/fishhook/fishhook.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/fishhook/fishhook.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/React/oss-compat-util.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/React/oss-compat-util.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGEnums.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGEnums.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGMacros.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGNodeList.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/yoga/YGNodeList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/yoga/Yoga-internal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/yoga/Yoga-internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/yoga/Yoga.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/yoga/Yoga.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAdditionAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAdditionAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimationDriver.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimationDriver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimationUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTAnimationUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDecayAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDecayAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDiffClampAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDiffClampAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDivisionAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTDivisionAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTEventAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTEventAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTFrameAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTFrameAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTInterpolationAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTInterpolationAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTModuloAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTModuloAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTPropsAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTPropsAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTSpringAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTSpringAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTStyleAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTStyleAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTTransformAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTTransformAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTValueAnimatedNode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTAnimation/RCTValueAnimatedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputDelegateAdapter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputDelegateAdapter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputViewProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBackedTextInputViewProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBlobManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTBlobManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTConvert+Text.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTConvert+Text.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDataRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDataRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDevLoadingView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDevLoadingView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDevMenu.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTDevMenu.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFileRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFileRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFontAttributes.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFontAttributes.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFontAttributesDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTFontAttributesDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTHTTPRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTHTTPRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspector.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspector.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspectorDevServerHelper.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspectorDevServerHelper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspectorPackagerConnection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTInspectorPackagerConnection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTJSCExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTJSCExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetworkTask.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetworkTask.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetworking.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTNetworking.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerClient.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerClient.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnectionBridgeConfig.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnectionBridgeConfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnectionConfig.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTPackagerConnectionConfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTRawTextManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTRawTextManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTReconnectingWebSocket.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTReconnectingWebSocket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTReloadPackagerMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTReloadPackagerMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTSRWebSocket.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTSRWebSocket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTSamplingProfilerPackagerMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTSamplingProfilerPackagerMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowRawText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowRawText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowTextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowTextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowTextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTShadowTextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTText.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTText.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextFieldManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextFieldManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextInput.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextInput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextSelection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextSelection.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTTextViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTUITextField.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTUITextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTUITextView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTUITextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTWebSocketExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTWebSocketExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTWebSocketModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/RCTWebSocketModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAccessibilityManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAccessibilityManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTActivityIndicatorView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTActivityIndicatorView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTActivityIndicatorViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTActivityIndicatorViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAlertManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAlertManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAnimationType.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAnimationType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAppState.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAppState.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAssert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAssert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAsyncLocalStorage.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAsyncLocalStorage.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAutoInsetsProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTAutoInsetsProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBorderDrawing.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBorderDrawing.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBorderStyle.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBorderStyle.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridge+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridge+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridge.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeModule.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBridgeModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBundleURLProvider.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTBundleURLProvider.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTClipboard.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTClipboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTComponent.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTComponent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTComponentData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTComponentData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert+CoreLocation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert+CoreLocation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert+Transform.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert+Transform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTConvert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTCxxConvert.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTCxxConvert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDatePicker.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDatePicker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDatePickerManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDatePickerManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDefines.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDefines.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDevSettings.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDevSettings.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDeviceInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDeviceInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDisplayLink.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTDisplayLink.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTErrorCustomizer.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTErrorCustomizer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTErrorInfo.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTErrorInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTEventDispatcher.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTEventDispatcher.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTEventEmitter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTEventEmitter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTExceptionsManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTExceptionsManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFPSGraph.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFPSGraph.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFont.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFont.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFrameUpdate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTFrameUpdate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTI18nManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTI18nManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTI18nUtil.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTI18nUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTImageSource.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTImageSource.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTInvalidating.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTInvalidating.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSCErrorHandling.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSCErrorHandling.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSCSamplingProfiler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSCSamplingProfiler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSEnvironment.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSEnvironment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSStackFrame.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJSStackFrame.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJavaScriptExecutor.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJavaScriptExecutor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTKeyCommands.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTKeyCommands.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTKeyboardObserver.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTKeyboardObserver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLayoutAnimation.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLayoutAnimation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLayoutAnimationGroup.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLayoutAnimationGroup.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLog.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTLog.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMacros.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTManagedPointer.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTManagedPointer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMaskedView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMaskedView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMaskedViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMaskedViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostViewController.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalHostViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModalManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModuleData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModuleData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModuleMethod.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTModuleMethod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMultipartDataTask.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMultipartDataTask.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMultipartStreamReader.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTMultipartStreamReader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavItem.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavItem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavItemManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavItemManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavigator.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavigator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavigatorManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNavigatorManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNullability.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTNullability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTParserUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTParserUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPerformanceLogger.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPerformanceLogger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPicker.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPicker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPickerManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPickerManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPlatform.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPlatform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPointerEvents.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTPointerEvents.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTProfile.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTProfile.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTProgressViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTProgressViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRedBox.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRedBox.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRefreshControl.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRefreshControl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRefreshControlManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRefreshControlManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTReloadCommand.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTReloadCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootContentView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootContentView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootViewDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootViewInternal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTRootViewInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaViewLocalData.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaViewLocalData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSafeAreaViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollContentShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollContentShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollContentViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollContentViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollableProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTScrollableProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSegmentedControl.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSegmentedControl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSegmentedControlManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSegmentedControlManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView+Internal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView+Internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView+Layout.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView+Layout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTShadowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSlider.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSlider.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSliderManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSliderManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSourceCode.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSourceCode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTStatusBarManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTStatusBarManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSwitch.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSwitch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSwitchManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTSwitchManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTVNavigationEventEmitter.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTVNavigationEventEmitter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTVRemoteHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTVRemoteHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBar.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarItem.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarItem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarItemManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarItemManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTabBarManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTiming.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTiming.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTouchEvent.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTouchEvent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTouchHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTTouchHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManagerObserverCoordinator.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManagerObserverCoordinator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManagerUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUIManagerUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTURLRequestDelegate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTURLRequestDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTURLRequestHandler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTURLRequestHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUtils.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTVersion.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTVersion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTViewControllerProtocol.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTViewControllerProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWebView.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWebView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWebViewManager.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWebViewManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWrapperViewController.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/RCTWrapperViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/UIView+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/UIView+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/React/UIView+React.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/React/UIView+React.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/React/fishhook/fishhook.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/React/fishhook/fishhook.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGEnums.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGEnums.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGMacros.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGNodeList.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/yoga/YGNodeList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/yoga/Yoga-internal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/yoga/Yoga-internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Public/yoga/Yoga.h" afterPath="$PROJECT_DIR$/Pods/Headers/Public/yoga/Yoga.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/React/React.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/React/React.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/yoga/yoga.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/yoga/yoga.xcconfig" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Mine.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Mine.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#49#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/MainPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#49#88#0" expanded="true" />
+                <element signature="e#216#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/LoginPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#13#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/loginAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/loginReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#13#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/reducers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ReactNative" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utton</find>
+      <find>Counter</find>
+      <find>MainPa</find>
+      <find>MinePage</find>
+      <find>tabBar</find>
+      <find>image</find>
+      <find>Chat</find>
+      <find>navigate</find>
+      <find>user</find>
+      <find>configureStore</find>
+      <find>combineReducers</find>
+      <find>setVisibilityFilter</find>
+      <find>VisibilityFilters</find>
+      <find>store.subscribe</find>
+      <find>验证</find>
+      <find>unsubscribe</find>
+      <find>onTodoClick</find>
+      <find>createStore</find>
+      <find>arrNum</find>
+      <find>count1</find>
+      <find>transform-decorators-legacy</find>
+      <find>connect</find>
+      <find>LOGIN_IN_ERROR</find>
+      <find>store</find>
+      <find>sss</find>
+      <find>this.store</find>
+      <find>消息中心</find>
+      <find>dispatch</find>
+      <find>loginIn</find>
+      <find>react-redux</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/Counter.js" />
+        <option value="$PROJECT_DIR$/src/pages/ChatScreen.js" />
+        <option value="$PROJECT_DIR$/index.ios.js" />
+        <option value="$PROJECT_DIR$/src/reducers/counterReducer.js" />
+        <option value="$PROJECT_DIR$/src/actions/loginAction.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/store/ConfigureStore.js" />
+        <option value="$PROJECT_DIR$/src/Root.js" />
+        <option value="$PROJECT_DIR$/src/actions/actions.js" />
+        <option value="$PROJECT_DIR$/src/actions/reducers.js" />
+        <option value="$PROJECT_DIR$/src/reducers/reducers.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Todo.js" />
+        <option value="$PROJECT_DIR$/src/components/TodoList.js" />
+        <option value="$PROJECT_DIR$/src/components/Link.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer.js" />
+        <option value="$PROJECT_DIR$/src/container/App.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/reducers/loginReducer.js" />
+        <option value="$PROJECT_DIR$/src/pages/MainPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/Mine.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-317" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Native_RN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Native_RN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/reducers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96016f9a-7db3-4003-a989-ba410a419cef" name="Default" comment="" />
+      <created>1526952724889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526952724889</updated>
+      <workItem from="1526952728704" duration="44306000" />
+      <workItem from="1527243070782" duration="121000" />
+      <workItem from="1527433411522" duration="6694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51121000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-317" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15903106" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13306852" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pages/Mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/ConfigureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#15#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/loginReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#13#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="61" lean-forward="false" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#49#88#0" expanded="true" />
+            <element signature="e#216#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/ConfigureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#15#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/loginReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#13#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="61" lean-forward="true" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#49#88#0" expanded="true" />
+            <element signature="e#216#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Button.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Counter.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/loginTypes.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/ChatScreen.js" />
+    <entry file="file://$PROJECT_DIR$/src/constants/loginType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/counterReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TodoList.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Link.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Todo.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="221" column="2" lean-forward="false" selection-start-line="221" selection-start-column="2" selection-end-line="221" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-redux/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/ConfigureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#15#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#13#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/loginAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/loginReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#49#88#0" expanded="true" />
+            <element signature="e#216#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
