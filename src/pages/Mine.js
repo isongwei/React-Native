@@ -7,7 +7,8 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     View,
-    Button
+    Button,
+    Text
 } from 'react-native';
 
 import store from '../store/index'
@@ -34,14 +35,16 @@ export default class Mine extends Component {
 
 
     }
-
-
-
-
-
     render() {
         return (
             <View>
+
+                <View
+                    style={{width:300,height:200,backgroundColor:'gray',alignSelf:'center'}}
+                    info="ssss"
+                >
+                    <CustomView info="ssss"/>
+                </View>
 
 
                 <Button
@@ -65,5 +68,33 @@ export default class Mine extends Component {
                     title="修改props"/>
             </View>
         );
+    }
+}
+
+
+
+class CustomView extends Component{
+
+
+    constructor(){
+        super()
+
+
+
+
+        // this.ss = this.props.info
+
+    // alert(JSON.stringify(props))
+
+    }
+
+    render(){
+     return(
+         <View>
+             <Text>
+                 asdsadsa{this.ss}
+             </Text>
+         </View>
+     )
     }
 }

@@ -24,7 +24,7 @@ import store from '../store/index'
 export default class MainPage  extends Component {
 
     constructor(props) {
-        super(props)
+        super(props)//继承属性
 
 
 

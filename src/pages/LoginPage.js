@@ -19,58 +19,49 @@ export default class LoginPage extends Component{
 
         }
     }
+
+    shouldComponentUpdate(nextProps,nextState) {
+
+        console.log('State' + JSON.stringify(this.state))
+        console.log('nextState' + JSON.stringify(nextState))
+
+
+        if(nextState.name2 == 'zzz'){
+            return false
+        }
+        return true
+    }
+
+
     render() {
         return (
             <View style={{flex:1,alignItems: 'center',justifyContent: 'center',}}>
 
-                <Com info={this.state.con}
-                     info2={this.state.name2}
-                />
                 <Button
                     onPress={() => {
-                        let aa = {}//this.state.con
-                        aa.name = 'zhang'
-                        aa.age = 26
                         this.setState({
-                            con:aa,
-                            name2:'www',
-                        })
-                    }}
-                    title="+++++"
-
-                />
-
-                <Button
-                    onPress={() => {
-                        let aa = this.state.con
-
-                        aa.name = 'li'
-                        aa.age = 22
-                        this.setState({
-                            con:aa,
                             name2:'zzz',
                         })
                     }}
-                    title="---"
+                    title="zzz"
                 />
                 <Button
                     onPress={() => {
-                        let cc = {}
-
-                        cc.name = "li"
-                        cc.age = 22
-                        cc.sex = 1
                         this.setState({
-                            con:cc,
+                            name2:'sss',
+                        })
+                    }}
+                    title="sss"
+                />
+                <Button
+                    onPress={() => {
+                        this.setState({
                             name2:'www',
                         })
                     }}
-                    title="+++++"
+                    title="www"
                 />
-                <PureCom info={this.state.con}
-                         info2={this.state.name2}
-                />
-
+                <PureCom info={this.state.name2}/>
             </View>
         )
     }
@@ -100,20 +91,15 @@ class Com extends Component{
 }
 
 
-class PureCom extends PureComponent{
-    constructor(props){
-        super(props)
-        console.log(JSON.stringify(this.props))
-    }
+class PureCom extends  Component{
+
+
+
     render(){
         return(
             <View style={{flex:1,alignItems: 'center',justifyContent: 'center',}}>
                 <Text>
-                    name:{this.props.info.name}
-                    age:{this.props.info.age}
-                </Text>
-                <Text>
-                    name2:{this.props.info2}
+                    namesss:{this.props.info}
                 </Text>
             </View>
 

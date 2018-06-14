@@ -14,9 +14,7 @@ const store = configureStore()
 export default class Root extends Component{
 
     render(){
-
         console.log(JSON.stringify(store))
-
         return(
             <Provider store = {store}>
                 <SimpleApp/>
