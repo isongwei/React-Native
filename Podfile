@@ -19,5 +19,7 @@ target 'Native_RN' do
   pod 'yoga', :path => './node_modules/react-native/ReactCommon/yoga'
 
 
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
 end
 
