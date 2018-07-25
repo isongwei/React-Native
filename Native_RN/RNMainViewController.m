@@ -11,11 +11,16 @@
 #import "RNMainViewController.h"
 #import "RNView.h"
 
-@interface RNMainViewController ()
+
+#import <React/RCTBridgeModule.h>
+
+@interface RNMainViewController ()<RCTBridgeModule>
 
 @end
 
 @implementation RNMainViewController
+
+
 
 - (void)viewDidLoad {
     
@@ -25,6 +30,18 @@
     self.view = rnView;
     
 }
+
+
+RCT_EXPORT_MODULE(RNMainViewController)
+
+RCT_EXPORT_METHOD(name:(NSString *)name){
+    
+    printf("%s", [name UTF8String]);
+    
+}
+
+
+
 
 
 @end
