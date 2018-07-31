@@ -10,20 +10,28 @@ import {
   NativeModules
 } from 'react-native';
 import CodePush from 'react-native-code-push';
+
+import ModalView from './ModalView';
+
+
 // const key = 'yBuw1HwYaRFTDCrCc_roHRTfg5UW64db34c3-9931-4b86-8104-001a2ebb4b64';
 const key = 'q8ODH3dKbywnzVkS8mCvineZ9XJs64db34c3-9931-4b86-8104-001a2ebb4b64';
 
 
 export default class MainVC extends Component {
 
-  constructor(props) {
-    super(props)
 
-    this.state = {
-      des: ''
+  // 构造
+    constructor(props) {
+      super(props);
+      // 初始状态
+      this.state = {
+        des: '',
+          isShow:false,
+      };
     }
 
-  }
+
 
   static navigationOptions = {
 
@@ -67,7 +75,7 @@ export default class MainVC extends Component {
       //ON_NEXT_RESUME 下次恢复到前台时
       //ON_NEXT_RESTART 下一次重启时
       //IMMEDIATE 马上更新
-      installMode: CodePush.InstallMode.IMMEDIATE,
+      installMode: CodePush.InstallMode.ON_NEXT_RESTART,
       deploymentKey: key,
       //对话框
       updateDialog: {
@@ -88,9 +96,8 @@ export default class MainVC extends Component {
         //Alert窗口的标题
         title: '更新提示'
       }
-    });
+    }).then();
   }
-
 
 
   render() {
@@ -99,7 +106,31 @@ export default class MainVC extends Component {
     } = this.props.navigation;
     return (
       <View style={styles.container}>
-                <TouchableOpacity style={{height:40,backgroundColor:'orange',justifyContent: 'center',}}
+
+        <View style={{flexDirection:'row'}}>
+          <TouchableOpacity style={{height:40,backgroundColor:'orange',justifyContent: 'center',marginRight:10}}
+                            onPress={() =>{
+
+                                navigate('DetailVC', { title: '详情',des:'我是返回点击我' })
+                            }
+
+                            }>
+            <Text>点击进详情页</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={{height:40,backgroundColor:'orange',justifyContent: 'center',}}
+                            onPress={() =>{
+
+                              this.setState({
+                                  isShow:true,
+                              })
+
+                            }
+
+                            }>
+            <Text>点击modal</Text>
+          </TouchableOpacity>
+        </View>
+                <TouchableOpacity style={{height:40,backgroundColor:'orange',justifyContent: 'center',marginTop:20}}
                                   onPress={() =>{
 
                                       navigate('DetailVC', { title: '详情',des:'我是返回点击我' })
@@ -119,6 +150,8 @@ export default class MainVC extends Component {
 
                 <TouchableOpacity style={{height:40,backgroundColor:'orange',justifyContent: 'center',marginTop:20}}
                                   onPress={() =>{
+
+
                   this.syncImmediate(); //开始检查更新
 
                                   }}>
@@ -127,7 +160,11 @@ export default class MainVC extends Component {
               <Text>
                 des:{this.state.des}
               </Text>
-   
+
+
+        <ModalView
+          isShow = {this.state.isShow}
+        />
             </View>
     );
   }
